@@ -5,7 +5,10 @@ import React from 'react'
 export default class Product extends React.Component{
   render(){
     return(
-      <h1>
+      <div>
+        <h1> This is {this.props.name} of product </h1> <br/>
+        <small>
+      </div>
     )
   }
 }
