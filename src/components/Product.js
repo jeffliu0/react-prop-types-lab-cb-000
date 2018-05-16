@@ -20,4 +20,5 @@ Product.proptypes = {
   producer: PropTypes.string,
   hasWatermark: PropTypes.bool,
   color: PropTypes.oneOF(['white', 'eggshell-white', 'salmon']).isRequired
+  weight: PropTypes.range(80,300).isRequired
 }
