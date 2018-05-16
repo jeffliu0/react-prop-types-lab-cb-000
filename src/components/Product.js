@@ -7,7 +7,10 @@ export default class Product extends React.Component{
     return(
       <div>
         <h1> This is {this.props.name} of product </h1> <br/>
-        <small>
+        <small> Producer is {this.props.producer} </small>
+        <small> This has watermarks: {hasWatermark}, yeah? </small>
+        <small> The color is this: {color}.join(' ') </small>
+        <strong> <h1> FAT?! {weight} </h1> </strong>
       </div>
     )
   }
